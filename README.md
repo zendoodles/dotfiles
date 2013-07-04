@@ -1,10 +1,9 @@
 bash
 ----
-* Copy '.bash_profile into place.
+* Copy .bash_profile into place.
 <pre>cp bash_profile ~/.bash_profile</pre>
 * And copy the scripts it uses into place...
 <pre>cp -r bash/ ~/.bash</pre>
-
 
 git
 ---
@@ -18,3 +17,7 @@ cp gitconfig ~/.gitconfig
 <pre>
 git config --global core.excludesfile ~/.gitignore
 </pre>
+
+apache etc
+----------
+@todo consider writing stuff here
