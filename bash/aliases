@@ -1,0 +1,20 @@
+# Some aliases etc.
+alias ls='ls -G'
+alias ip="tail /Users/zendoodles/Sites/debug/logs/Public_IP.log"
+alias lol="fortune"
+alias wget="curl -O"
+alias wtf="fortune zippy murphy"
+alias ign="git ls-files -o --exclude-standard"
+
+# CD into Directories
+alias d7="cd /Users/asoper/Code/Drupal/local/7.x"
+alias core="cd /Users/asoper/Projects/Drupal/drupal"
+
+# Servers:
+alias crisis="ssh crisis@216.119.132.130 -p 7822"
+alias primal="ssh organic@primalecho.com"
+alias minisaur="ssh admin@minisaur.local"
+alias puppy="ssh zendoodles@puppy.local"
+alias sr-prod="ssh nerdery@vtl-shelp-p-web1.tribalddb.com"
+alias sr-stage="ssh -t nerdery@vtl-shelp-p-web1.tribalddb.com 'ssh nerdery@vtl-shelp-d-web1.tmts.local'"
+alias athens="ssh asoper@athens.sierrabravo.net"

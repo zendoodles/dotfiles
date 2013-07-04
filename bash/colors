@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Regular Colors
+export red='\033[0;31m'          # Red
+export RED='\033[1;31m'
+
+export yellow='\033[0;33m'       # Yellow
+export YELLOW='\033[1;33m'
+
+export green='\033[0;32m'        # Green
+export GREEN='\033[1;32m'
+
+export cyan='\033[0;36m'         # Cyan
+export CYAN='\033[1;36m'
+
+export blue='\033[0;34m'         # Blue
+export BLUE='\033[1;34m'
+
+export purple='\033[0;35m'       # Purple
+export PURPLE='\033[1;35m'
+
+export white='\033[0;37m'        # White
+export WHITE='\033[1;37m'
+
+export NC='\033[0m'              # No Color
+
+export PS1="\[$yellow\]\h \[$green\][\$(date +%H:%M)] \[$cyan\]\w \[$NC\]$ "
+
+# Set some color friendly aliases
+if hash fortune >/dev/null; then
+  alias clear="clear; echo -e \"${purple}\"; fortune -s; echo -e \"${green}\"; date +'%A %Y %B %d - %r'; echo -e \"${NC}\""
+else
+  alias clear="clear; echo -e \"${green}\"; date +'%A %Y %B %d - %r'; echo -e \"${NC}\""
+fi
+
+# Tell grep to use colors
+export GREP_OPTIONS='--color=auto -I'
+
+
+
