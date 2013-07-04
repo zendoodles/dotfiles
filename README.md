@@ -6,6 +6,11 @@ bash
 <pre>cp -r bash/ ~/.bash</pre>
 * Go get macports: http://www.macports.org/install.php and install
 * Install fortune <pre>sudo port install fortune</pre>
+* Terminal settings:
+  * I use "Pro" as my default "Profile".
+  * In Settings => Shell: When the shell exists: "Close if the shell exited cleanly"
+  * Under the Settings => Keyboard tab, "Use option as meta key"
+  * Default window size is under Settings => Window.
 
 git
 ---
