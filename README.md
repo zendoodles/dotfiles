@@ -10,9 +10,9 @@ bash
 git
 ---
 * Add git to OSx Mountain Lion 
-** w/ <pre>sudo port install git-core</pre>
-** or by downloading the developer tools
-** or using the dmg from http://git-scm.com/download/mac 
+> * w/ <pre>sudo port install git-core</pre>
+> * or by downloading the developer tools
+> * or using the dmg from http://git-scm.com/download/mac 
 * Put the git configuration files in place
 <pre>
 cp gitignore ~/.gitingore
