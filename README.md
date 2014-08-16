@@ -8,6 +8,11 @@ General
 * You'll need [MySQL](http://dev.mysql.com/downloads/mysql/) too. (Could theoretically brew install it instead.)
 * And prolly [Composer](https://getcomposer.org/) `curl -sS https://getcomposer.org/installer | php`
 
+Terminal
+========
+I am not convinced [iTerm2](http://iterm2.com/downloads.html) is substantially better than Terminal, but I included the preferences export. In iTerm Preferences => Preferences => "Load preferences from a custom folder or URL:" Point to `./iterm/` where the plist is.
+Alternatively in Terminal => Preferences => Settings, click the gear at the bottom and import `./ZenDoodles.terminal`.
+
 zsh
 ----
 * Get Oh-my-zsh: `curl -L http://install.ohmyz.sh | sh`
