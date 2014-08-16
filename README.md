@@ -26,12 +26,28 @@ git
 * `ln -s ./git/gitignore ~/.gitingore`
 * `ln -s ./git/gitconfig ~/.gitconfig`
 
-apache etc
-----------
-@todo Write about magic Apache stuff here.
+Apache
+===========
+The file, .apache/httpd-vhosts.conf belongs in `/etc/apache2/extra/`. I suggest
+ making a copy of the one you're replacing first in case something goes horribly
+ wrong. This configures apache to use "Mass Virtual Hosting" so I don't have to
+ create a new VHost for every site I work on. In order for the magic to work
+ though, all of the sites must be created in `/Library/Webserver/Documents` (or
+ the path could be changed in the file). Some combination of symbolic links also
+ would work. For the sake of these directions, we'll assume all the sites will
+ be in `/Library/Webserver/Documents`.
 
-Other Stuff
-------------
+The name of the directory inside `/Library/Webserver/Documents` determines what
+ url Apache will serve this site for. Also when I create a new site, I put the
+ document root in www/. So to create a Drupal site I could access locally at
+ http://drupal.local/ I would clone Drupal core into `/Library/Webserver/Documents/drupal/www`.
+
+Since I don't want to muck w/ bind and dns, I do still have to create a line for
+ each new site in my /etc/hosts file:
+<pre>127.0.0.1               drupal.local</pre>
+
+Other Stuff to Install
+======================
 Downloads:
 * [Chrome](https://www.google.com/chrome/browser/) and [Firefox](http://www.getfirefox.net/dl/en-us.html)
   * [Dreditor](https://dreditor.org/)
