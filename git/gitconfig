@@ -1,10 +1,10 @@
 [user]
 	name = Andrea Soper
-	email = asoper+git@nerdery.com
+	email = github@zendoodles.com
 [http]
 	postBuffer = 5242880000
 [core]
-        excludesfile = /Users/asoper/.gitignore
+        excludesfile = ~/.gitignore
         whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
 [color]
         ui = true
