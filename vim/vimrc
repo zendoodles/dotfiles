@@ -72,8 +72,11 @@ set number              " Display Line numbers
 "set nowrap "Could this be causing the terminal issues where it will not
             "scroll anymore at the bottom of the window after running vim?
 
-set whichwrap=<,>,[,]   " Cursor moves to the next/prev using arrow keys at eol
-colorscheme koehler     " Purdy colors.
+set whichwrap=<,>,[,]   " Cursor moves to the next/prev using arrow keys at eor
+"runtime! ~/.vim/candy.vim
+syntax enable
+colorscheme vividchalk     " Purdy colors.
+"colorscheme zendoodles
 
 " php syntax highlighting options. 
 let php_sql_query = 1
