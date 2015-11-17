@@ -1,7 +1,7 @@
 
 # My stuff converted from .bash_profile
-if [ -f ~/Code/bin/colors.sh ]; then 
-  . ~/Code/bin/colors.sh
+if [ -f $HOME/dotfiles/bash/colors ]; then 
+  . $HOME/dotfiles/bash/colors
   HR="--------------------------------------------------------------------------------"
   echo -e "\n${CYAN}${HR}"
 
@@ -21,7 +21,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="zendoodles"
-DEFAULT_USER="soper"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -67,7 +66,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/Code/bin:/usr/include/php/bin:/Users/soper/pear/bin:/usr/local/mysql/bin:/Users/soper/.composer/vendor/bin:/opt/local/bin:/opt/local/sbin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/Code/bin:/usr/include/php/bin:$HOME/pear/bin:/usr/local/mysql/bin:$HOME/.composer/vendor/bin:/opt/local/bin:/opt/local/sbin:$HOME/bin:$HOME/dotfiles/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
