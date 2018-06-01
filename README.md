@@ -1,7 +1,7 @@
 General
 =======
 * Install [homebrew](http://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-* And use it to install a few essentials: (`brew install git fortune homebrew/php/composer`)
+* And use it to install a few essentials: (`brew install git fortune composer`)
 
 Terminal & zsh
 ==============
@@ -21,16 +21,11 @@ Other Stuff to Install
 ======================
 Downloads:
 ----------
-* [Dreditor](https://dreditor.org/)
-  * [PHPStorm Chrome Extension](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji)
 * [PHPStorm](http://www.jetbrains.com/phpstorm/) In PHPStorm => File => Import Settings, point the file dialog to phpstorm-settings.jar
-* Maybe [Sequel Pro](http://www.sequelpro.com/download)?
+* [Opera](https://www.opera.com/computer/mac)
 
 App Store:
 ------------------
 * XCode
-* Limechat
-* Vitamin R-2
-* Pixelmator
-* iDraw
-* Skitch
+* Slack
+
