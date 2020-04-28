@@ -5,4 +5,5 @@ alias lol="fortune"
 alias wget="curl -O"
 alias wtf="fortune zippy murphy"
 alias ign="git ls-files -o --exclude-standard"
+alias drush="/home/zendoodles/.composer/vendor/bin/drush"
 

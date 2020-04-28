@@ -100,4 +100,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+if [ -f $HOME/.dotfiles/bash/aliases ]; then
+  . $HOME/.dotfiles/bash/aliases
+fi
 
