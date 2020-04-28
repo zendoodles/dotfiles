@@ -67,18 +67,15 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/Code/bin:/usr/include/php/bin:$HOME/pear/bin:/usr/local/mysql/bin:$HOME/.composer/vendor/bin:/opt/local/bin:/opt/local/sbin:$HOME/bin:$HOME/dotfiles/bin"
+export PATH="$HOME/.local/bin:/usr/games:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/Code/bin:/usr/include/php/bin:$HOME/pear/bin:/usr/local/mysql/bin:$HOME/.composer/vendor/bin:/opt/local/bin:/opt/local/sbin:$HOME/bin:$HOME/dotfiles/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
- export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-fi
+# FFS... use vim please.
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # Allow the use of # as a comment character on the cli.
 setopt interactivecomments
