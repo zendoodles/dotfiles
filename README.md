@@ -1,7 +1,5 @@
 General
 =======
-* Install [homebrew](http://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-* And use it to install a few essentials: (`brew install git fortune composer`)
 
 Terminal & zsh
 ==============
@@ -22,10 +20,5 @@ Other Stuff to Install
 Downloads:
 ----------
 * [PHPStorm](http://www.jetbrains.com/phpstorm/) In PHPStorm => File => Import Settings, point the file dialog to phpstorm-settings.jar
-* [Opera](https://www.opera.com/computer/mac)
 
-App Store:
-------------------
-* XCode
-* Slack
 
