@@ -24,7 +24,7 @@ export WHITE='\033[1;37m'
 
 export NC='\033[0m'              # No Color
 
-export PS1="\[$yellow\]\h \[$green\][\$(date +%H:%M)] \[$cyan\]\w \[$NC\]$ "
+export PS1="\[$NC\] \[$yellow\]\h \[$green\][\$(date +%H:%M)] \[$cyan\]\w \[$NC\]$ "
 
 # Set some color friendly aliases
 if hash fortune >/dev/null; then
@@ -34,7 +34,7 @@ else
 fi
 
 # Tell grep to use colors
-export GREP_OPTIONS='--color=auto -I'
+alias grep='grep --color=auto -I'
 
 
 

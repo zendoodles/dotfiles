@@ -1,7 +1,7 @@
 
 # My stuff converted from .bash_profile
-if [ -f $HOME/dotfiles/bash/colors ]; then 
-  . $HOME/dotfiles/bash/colors
+if [ -f $HOME/.dotfiles/bash/colors ]; then
+  . $HOME/.dotfiles/bash/colors
   HR="--------------------------------------------------------------------------------"
   echo -e "\n${CYAN}${HR}"
 
@@ -15,6 +15,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export LESS=-iXFR
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
