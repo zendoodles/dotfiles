@@ -96,3 +96,5 @@ if [ -f $HOME/.dotfiles/bash/aliases ]; then
   . $HOME/.dotfiles/bash/aliases
 fi
 
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
