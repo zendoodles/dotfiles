@@ -96,5 +96,10 @@ if [ -f $HOME/.dotfiles/bash/aliases ]; then
   . $HOME/.dotfiles/bash/aliases
 fi
 
-
+# Make sure the shell can find homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Add my keys to the ssh agent; passwords are pulled from the keychain.
+# The --apple-load-keychain option is unique to MacOS.
+
+ssh-add --apple-load-keychain

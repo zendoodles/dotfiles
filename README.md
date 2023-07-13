@@ -1,6 +1,11 @@
 General
 =======
 
+SSH
+===
+* Add ssh keys (and .pub files) to ~/.ssh
+* `ln -s ~/.dotfiles/config.ssh ~/.ssh/config`
+
 Terminal & zsh
 ==============
 * In Terminal => Preferences => Settings, click the gear at the bottom and import `./ZenDoodles.terminal`.
