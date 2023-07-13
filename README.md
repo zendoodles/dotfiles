@@ -27,7 +27,7 @@ Other Stuff to Install
 * [Homebrew](https://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 * [DDEV](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/):
 	* `brew install colima`
-	* `colima start --cpu 4 --memory 6`
+	* `colima start --cpu 4 --memory 8 --disk 64`
 	* `brew install ddev/ddev/ddev`
 	* `mkcert -install`
 
