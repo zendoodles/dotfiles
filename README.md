@@ -19,8 +19,14 @@ git
 
 Other Stuff to Install
 ======================
-Downloads:
+* [Homebrew](https://brew.sh/): `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+* [DDEV](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/):
+	* `brew install colima`
+	* `colima start --cpu 4 --memory 6`
+	* `brew install ddev/ddev/ddev`
+	* `mkcert -install`
+
+Downloads
 ----------
 * [PHPStorm](http://www.jetbrains.com/phpstorm/) In PHPStorm => File => Import Settings, point the file dialog to phpstorm-settings.jar
-
 
